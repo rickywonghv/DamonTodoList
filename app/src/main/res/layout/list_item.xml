@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/todotitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="visible"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/todoid" />
+
+    <TextView
+        android:id="@+id/todocat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="visible"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/todotitle" />
+
+    <TextView
+        android:id="@+id/todoid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:visibility="invisible"
+        android:layout_alignParentRight="false" />
+
+</RelativeLayout>
